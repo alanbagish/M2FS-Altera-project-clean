@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="64bitmux">
+		<CBX_INST_ENTRY INSTANCE_NAME="|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component" CBX_FILE_NAME="FLS_DATA_FORMATTER_lvds_rx.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|64bitmux|altpll1:inst27|altpll:altpll_component" CBX_FILE_NAME="altpll1_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

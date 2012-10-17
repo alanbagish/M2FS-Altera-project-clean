@@ -1,0 +1,455 @@
+|64bitmux
+IO2 => inst56.DATA
+CAM_CLKA => inst51.DATA
+CAM_FLD => inst36.DATA
+IO3 => inst57.DATA
+IO4 => inst58.DATA
+IO5 => inst59.DATA
+IO6 => inst60.DATA
+IO7 => inst61.DATA
+IO8 => inst62.DATA
+IO9 => inst63.DATA
+IO10 => inst64.DATA
+IO11 => inst65.DATA
+IO12 => inst66.DATA
+IO13 => inst67.DATA
+IO14 => inst68.DATA
+IO15 => inst69.DATA
+IO16 => inst70.DATA
+FRAME_CLK_OUT_B => inst71.DATA
+FRAME_CLK_OUT_A => inst48.DATA
+DATA_CLK_OUT_A => inst47.DATA
+DATA_CLK_OUT_B => inst73.DATA
+EOS_A => inst40.IN
+EOS_B => inst41.IN
+IO1 => inst55.DATA
+LVDS_CHANNEL_8 => inst49.DATA
+LVDS_CHANNEL_7 => inst39.DATA
+LVDS_CHANNEL_6 => inst31.DATA
+LVDS_CHANNEL_5 => inst30.DATA
+LVDS_CHANNEL_4 => inst16.DATA
+LVDS_CHANNEL_3 => inst29.DATA
+LVDS_CHANNEL_1 => inst18.DATA
+LVDS_CHANNEL_2 => inst28.DATA
+
+
+|64bitmux|altpll1:inst27
+inclk0 => altpll:altpll_component.inclk[0]
+
+
+|64bitmux|altpll1:inst27|altpll:altpll_component
+inclk[0] => altpll1_altpll:auto_generated.inclk[0]
+inclk[1] => altpll1_altpll:auto_generated.inclk[1]
+fbin => ~NO_FANOUT~
+pllena => ~NO_FANOUT~
+clkswitch => ~NO_FANOUT~
+areset => ~NO_FANOUT~
+pfdena => ~NO_FANOUT~
+clkena[0] => ~NO_FANOUT~
+clkena[1] => ~NO_FANOUT~
+clkena[2] => ~NO_FANOUT~
+clkena[3] => ~NO_FANOUT~
+clkena[4] => ~NO_FANOUT~
+clkena[5] => ~NO_FANOUT~
+extclkena[0] => ~NO_FANOUT~
+extclkena[1] => ~NO_FANOUT~
+extclkena[2] => ~NO_FANOUT~
+extclkena[3] => ~NO_FANOUT~
+scanclk => ~NO_FANOUT~
+scanclkena => ~NO_FANOUT~
+scanaclr => ~NO_FANOUT~
+scanread => ~NO_FANOUT~
+scanwrite => ~NO_FANOUT~
+scandata => ~NO_FANOUT~
+phasecounterselect[0] => ~NO_FANOUT~
+phasecounterselect[1] => ~NO_FANOUT~
+phasecounterselect[2] => ~NO_FANOUT~
+phasecounterselect[3] => ~NO_FANOUT~
+phaseupdown => ~NO_FANOUT~
+phasestep => ~NO_FANOUT~
+configupdate => ~NO_FANOUT~
+fbmimicbidir <> <GND>
+
+
+|64bitmux|altpll1:inst27|altpll:altpll_component|altpll1_altpll:auto_generated
+inclk[0] => pll1.CLK
+inclk[1] => pll1.CLK1
+
+
+|64bitmux|74374b:inst21
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5
+rx_in[0] => altlvds_rx:ALTLVDS_RX_component.rx_in[0]
+rx_in[1] => altlvds_rx:ALTLVDS_RX_component.rx_in[1]
+rx_in[2] => altlvds_rx:ALTLVDS_RX_component.rx_in[2]
+rx_in[3] => altlvds_rx:ALTLVDS_RX_component.rx_in[3]
+rx_in[4] => altlvds_rx:ALTLVDS_RX_component.rx_in[4]
+rx_in[5] => altlvds_rx:ALTLVDS_RX_component.rx_in[5]
+rx_in[6] => altlvds_rx:ALTLVDS_RX_component.rx_in[6]
+rx_in[7] => altlvds_rx:ALTLVDS_RX_component.rx_in[7]
+rx_inclock => altlvds_rx:ALTLVDS_RX_component.rx_inclock
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component
+rx_in[0] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[0]
+rx_in[1] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[1]
+rx_in[2] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[2]
+rx_in[3] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[3]
+rx_in[4] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[4]
+rx_in[5] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[5]
+rx_in[6] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[6]
+rx_in[7] => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_in[7]
+rx_inclock => FLS_DATA_FORMATTER_lvds_rx:auto_generated.rx_inclock
+rx_syncclock => ~NO_FANOUT~
+rx_dpaclock => ~NO_FANOUT~
+rx_readclock => ~NO_FANOUT~
+rx_enable => ~NO_FANOUT~
+rx_deskew => ~NO_FANOUT~
+rx_pll_enable => ~NO_FANOUT~
+rx_data_align => ~NO_FANOUT~
+rx_data_align_reset => ~NO_FANOUT~
+rx_reset[0] => ~NO_FANOUT~
+rx_reset[1] => ~NO_FANOUT~
+rx_reset[2] => ~NO_FANOUT~
+rx_reset[3] => ~NO_FANOUT~
+rx_reset[4] => ~NO_FANOUT~
+rx_reset[5] => ~NO_FANOUT~
+rx_reset[6] => ~NO_FANOUT~
+rx_reset[7] => ~NO_FANOUT~
+rx_dpll_reset[0] => ~NO_FANOUT~
+rx_dpll_reset[1] => ~NO_FANOUT~
+rx_dpll_reset[2] => ~NO_FANOUT~
+rx_dpll_reset[3] => ~NO_FANOUT~
+rx_dpll_reset[4] => ~NO_FANOUT~
+rx_dpll_reset[5] => ~NO_FANOUT~
+rx_dpll_reset[6] => ~NO_FANOUT~
+rx_dpll_reset[7] => ~NO_FANOUT~
+rx_dpll_hold[0] => ~NO_FANOUT~
+rx_dpll_hold[1] => ~NO_FANOUT~
+rx_dpll_hold[2] => ~NO_FANOUT~
+rx_dpll_hold[3] => ~NO_FANOUT~
+rx_dpll_hold[4] => ~NO_FANOUT~
+rx_dpll_hold[5] => ~NO_FANOUT~
+rx_dpll_hold[6] => ~NO_FANOUT~
+rx_dpll_hold[7] => ~NO_FANOUT~
+rx_dpll_enable[0] => ~NO_FANOUT~
+rx_dpll_enable[1] => ~NO_FANOUT~
+rx_dpll_enable[2] => ~NO_FANOUT~
+rx_dpll_enable[3] => ~NO_FANOUT~
+rx_dpll_enable[4] => ~NO_FANOUT~
+rx_dpll_enable[5] => ~NO_FANOUT~
+rx_dpll_enable[6] => ~NO_FANOUT~
+rx_dpll_enable[7] => ~NO_FANOUT~
+rx_fifo_reset[0] => ~NO_FANOUT~
+rx_fifo_reset[1] => ~NO_FANOUT~
+rx_fifo_reset[2] => ~NO_FANOUT~
+rx_fifo_reset[3] => ~NO_FANOUT~
+rx_fifo_reset[4] => ~NO_FANOUT~
+rx_fifo_reset[5] => ~NO_FANOUT~
+rx_fifo_reset[6] => ~NO_FANOUT~
+rx_fifo_reset[7] => ~NO_FANOUT~
+rx_channel_data_align[0] => ~NO_FANOUT~
+rx_channel_data_align[1] => ~NO_FANOUT~
+rx_channel_data_align[2] => ~NO_FANOUT~
+rx_channel_data_align[3] => ~NO_FANOUT~
+rx_channel_data_align[4] => ~NO_FANOUT~
+rx_channel_data_align[5] => ~NO_FANOUT~
+rx_channel_data_align[6] => ~NO_FANOUT~
+rx_channel_data_align[7] => ~NO_FANOUT~
+rx_cda_reset[0] => ~NO_FANOUT~
+rx_cda_reset[1] => ~NO_FANOUT~
+rx_cda_reset[2] => ~NO_FANOUT~
+rx_cda_reset[3] => ~NO_FANOUT~
+rx_cda_reset[4] => ~NO_FANOUT~
+rx_cda_reset[5] => ~NO_FANOUT~
+rx_cda_reset[6] => ~NO_FANOUT~
+rx_cda_reset[7] => ~NO_FANOUT~
+rx_coreclk[0] => ~NO_FANOUT~
+rx_coreclk[1] => ~NO_FANOUT~
+rx_coreclk[2] => ~NO_FANOUT~
+rx_coreclk[3] => ~NO_FANOUT~
+rx_coreclk[4] => ~NO_FANOUT~
+rx_coreclk[5] => ~NO_FANOUT~
+rx_coreclk[6] => ~NO_FANOUT~
+rx_coreclk[7] => ~NO_FANOUT~
+pll_areset => ~NO_FANOUT~
+rx_data_reset => ~NO_FANOUT~
+pll_phasedone => ~NO_FANOUT~
+rx_dpa_lock_reset[0] => ~NO_FANOUT~
+rx_dpa_lock_reset[1] => ~NO_FANOUT~
+rx_dpa_lock_reset[2] => ~NO_FANOUT~
+rx_dpa_lock_reset[3] => ~NO_FANOUT~
+rx_dpa_lock_reset[4] => ~NO_FANOUT~
+rx_dpa_lock_reset[5] => ~NO_FANOUT~
+rx_dpa_lock_reset[6] => ~NO_FANOUT~
+rx_dpa_lock_reset[7] => ~NO_FANOUT~
+dpa_pll_recal => ~NO_FANOUT~
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated
+rx_in[0] => rx_in[0].IN1
+rx_in[1] => rx_in[1].IN1
+rx_in[2] => rx_in[2].IN1
+rx_in[3] => rx_in[3].IN1
+rx_in[4] => rx_in[4].IN1
+rx_in[5] => rx_in[5].IN1
+rx_in[6] => rx_in[6].IN1
+rx_in[7] => rx_in[7].IN1
+rx_inclock => lvds_rx_pll.CLK
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in
+clock => ddio_h_reg[0].CLK
+clock => ddio_h_reg[1].CLK
+clock => ddio_h_reg[2].CLK
+clock => ddio_h_reg[3].CLK
+clock => ddio_h_reg[4].CLK
+clock => ddio_h_reg[5].CLK
+clock => ddio_h_reg[6].CLK
+clock => ddio_h_reg[7].CLK
+clock => dataout_l_reg[0].CLK
+clock => dataout_l_reg[1].CLK
+clock => dataout_l_reg[2].CLK
+clock => dataout_l_reg[3].CLK
+clock => dataout_l_reg[4].CLK
+clock => dataout_l_reg[5].CLK
+clock => dataout_l_reg[6].CLK
+clock => dataout_l_reg[7].CLK
+clock => dataout_h_reg[0].CLK
+clock => dataout_h_reg[1].CLK
+clock => dataout_h_reg[2].CLK
+clock => dataout_h_reg[3].CLK
+clock => dataout_h_reg[4].CLK
+clock => dataout_h_reg[5].CLK
+clock => dataout_h_reg[6].CLK
+clock => dataout_h_reg[7].CLK
+clock => ddio_l_reg[0].CLK
+clock => ddio_l_reg[1].CLK
+clock => ddio_l_reg[2].CLK
+clock => ddio_l_reg[3].CLK
+clock => ddio_l_reg[4].CLK
+clock => ddio_l_reg[5].CLK
+clock => ddio_l_reg[6].CLK
+clock => ddio_l_reg[7].CLK
+clock => dataout_l_latch[0].CLK
+clock => dataout_l_latch[1].CLK
+clock => dataout_l_latch[2].CLK
+clock => dataout_l_latch[3].CLK
+clock => dataout_l_latch[4].CLK
+clock => dataout_l_latch[5].CLK
+clock => dataout_l_latch[6].CLK
+clock => dataout_l_latch[7].CLK
+datain[0] => ddio_l_reg[0].DATAIN
+datain[0] => ddio_h_reg[0].DATAIN
+datain[1] => ddio_l_reg[1].DATAIN
+datain[1] => ddio_h_reg[1].DATAIN
+datain[2] => ddio_l_reg[2].DATAIN
+datain[2] => ddio_h_reg[2].DATAIN
+datain[3] => ddio_l_reg[3].DATAIN
+datain[3] => ddio_h_reg[3].DATAIN
+datain[4] => ddio_l_reg[4].DATAIN
+datain[4] => ddio_h_reg[4].DATAIN
+datain[5] => ddio_l_reg[5].DATAIN
+datain[5] => ddio_h_reg[5].DATAIN
+datain[6] => ddio_l_reg[6].DATAIN
+datain[6] => ddio_h_reg[6].DATAIN
+datain[7] => ddio_l_reg[7].DATAIN
+datain[7] => ddio_h_reg[7].DATAIN
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe
+clock => dffe17a[0].CLK
+clock => dffe17a[1].CLK
+clock => dffe17a[2].CLK
+clock => dffe17a[3].CLK
+clock => dffe17a[4].CLK
+clock => dffe17a[5].CLK
+clock => dffe17a[6].CLK
+clock => dffe17a[7].CLK
+d[0] => dffe17a[0].DATAIN
+d[1] => dffe17a[1].DATAIN
+d[2] => dffe17a[2].DATAIN
+d[3] => dffe17a[3].DATAIN
+d[4] => dffe17a[4].DATAIN
+d[5] => dffe17a[5].DATAIN
+d[6] => dffe17a[6].DATAIN
+d[7] => dffe17a[7].DATAIN
+
+
+|64bitmux|FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:l_dffpipe
+clock => dffe17a[0].CLK
+clock => dffe17a[1].CLK
+clock => dffe17a[2].CLK
+clock => dffe17a[3].CLK
+clock => dffe17a[4].CLK
+clock => dffe17a[5].CLK
+clock => dffe17a[6].CLK
+clock => dffe17a[7].CLK
+d[0] => dffe17a[0].DATAIN
+d[1] => dffe17a[1].DATAIN
+d[2] => dffe17a[2].DATAIN
+d[3] => dffe17a[3].DATAIN
+d[4] => dffe17a[4].DATAIN
+d[5] => dffe17a[5].DATAIN
+d[6] => dffe17a[6].DATAIN
+d[7] => dffe17a[7].DATAIN
+
+
+|64bitmux|74374b:inst20
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst19
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst52
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst22
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst23
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst24
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+
+|64bitmux|74374b:inst25
+CLK => 20.CLK
+CLK => 19.CLK
+CLK => 18.CLK
+CLK => 17.CLK
+CLK => 16.CLK
+CLK => 15.CLK
+CLK => 14.CLK
+CLK => 13.CLK
+D8 => 20.DATAIN
+OEN => 51.IN0
+D7 => 19.DATAIN
+D6 => 18.DATAIN
+D5 => 17.DATAIN
+D4 => 16.DATAIN
+D3 => 15.DATAIN
+D2 => 14.DATAIN
+D1 => 13.DATAIN
+
+

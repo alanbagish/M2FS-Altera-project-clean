@@ -1,0 +1,134 @@
+Quartus II Archive log --	D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux_10_9_2012_backup.qarlog
+
+Archive:	D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux_10_9_2012_backup.qar
+Date:		Tue Oct 09 13:28:21 2012
+Quartus II 32-bit		12.0 Build 263 08/02/2012 SP 2 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/altera/12.0sp2/quartus/libraries/megafunctions/lpm_add_sub.inc
+C:/altera/12.0sp2/quartus/libraries/megafunctions/lpm_counter.inc
+C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/timing_b.vhd
+C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/timing_p.vhd
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.asm.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.bdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.db_export.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.dpf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.fit.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.fit.smsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.fit.summary
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.flow.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.jdi
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.map.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.map.smsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.map.summary
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.out.sdc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.pin
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.qpf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.qsf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.restore.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.sof
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.srf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.sta.rpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.sta.smsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.sta.summary
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux_9_26_2012.bdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux_assignment_defaults.qdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/74374b.bdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/FLS_DATA_FORMATTER.vhd
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/altpll.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/altpll1.cmp
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/altpll1.vhd
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/db/64bitmux.cbx.xml
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/db/FLS_DATA_FORMATTER_lvds_rx.v
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.archive.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.asm.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.bpm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.eco2
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.logdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.rcf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.sci
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.scidsc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp.xml
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.cmp_merge.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.db_export.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.db_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.drc.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.export_db_files
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.export_db_post_map_files
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.export_db_report_files
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.fit.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.hier_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.bpm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.logdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.sci
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map.scidsc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map_bb.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map_bb.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map_bb.logdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map_bb.sci
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.map_bb.scidsc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.pow.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.pre_map.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.restore.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.dfp
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.logdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.cmp.rcf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.dpi
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.hbdb.atm
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.hbdb.hb_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.hbdb.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.hbdb.sig
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.hdbx
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.root_partition.map.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.sta.qmsg
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/export_db/64bitmux.syn_hier_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.db_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.cdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.dfp
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.hdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.logdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.cmp.rcfdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.cdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.dpi
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.cdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.hb_info
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.hdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.sig
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.hdb
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/incremental_db/compiled_partitions/64bitmux.root_partition.map.kpt
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_add_sub0.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_counter0.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_counter1.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_counter2.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_counter3.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/lpm_counter4.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/aglobal111.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/altddio_in.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/altlvds_rx.tdf
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/cbx.lst
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/cycloneii_pll.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratix_lvds_receiver.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratix_pll.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratixgx_lvds_receiver.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratixgx_pll.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratixii_clkctrl.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratixii_lvds_receiver.inc
+D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/megafunctions/stratixii_pll.inc
+	======= Total: 123 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pin_planner>
+	<pin_info>
+		<pin name="LVDS_CHANNEL_8(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_8" >
+		</pin>
+		<pin name="LVDS_CHANNEL_7(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_7" >
+		</pin>
+		<pin name="LVDS_CHANNEL_6(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_6" >
+		</pin>
+		<pin name="LVDS_CHANNEL_5(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_5" >
+		</pin>
+		<pin name="LVDS_CHANNEL_4(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_4" >
+		</pin>
+		<pin name="LVDS_CHANNEL_3(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_3" >
+		</pin>
+		<pin name="LVDS_CHANNEL_2(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_2" >
+		</pin>
+		<pin name="LVDS_CHANNEL_1(n)" direction="Input" source="Assignment Group Member" diff_pair_node="LVDS_CHANNEL_1" >
+		</pin>
+		<pin name="SYS_CLK1(n)" direction="Output" source="Assignment Group Member" diff_pair_node="SYS_CLK1" >
+		</pin>
+		<pin name="SYS_CLK2(n)" direction="Output" source="Assignment Group Member" diff_pair_node="SYS_CLK2" >
+		</pin>
+	</pin_info>
+	<buses>
+	</buses>
+	<group_file_association>
+	</group_file_association>
+	<pin_planner_file_specifies>
+	</pin_planner_file_specifies>
+</pin_planner>

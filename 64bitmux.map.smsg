@@ -1,0 +1,2 @@
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (12090): Entity "altpll" obtained from "altpll.tdf" instead of from Quartus II megafunction library

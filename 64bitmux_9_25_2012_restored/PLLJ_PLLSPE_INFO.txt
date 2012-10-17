@@ -1,0 +1,10 @@
+PLL_Name	altpll1:inst27|altpll:altpll_component|altpll1_altpll:auto_generated|pll1
+PLLJITTER	28
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll
+PLLJITTER	28
+PLLSPEmax	84
+PLLSPEmin	-53
+

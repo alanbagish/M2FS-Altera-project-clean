@@ -1,0 +1,5 @@
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Warning (176674): Following 16 pins are differential I/O pins but do not have their complement pins. Hence, the Fitter automatically created the complement pins.
+Critical Warning (332012): Synopsys Design Constraints File file not found: '64bitmux.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.

@@ -1,0 +1,201 @@
+Archive Project report for 64bitmux
+Tue Oct 09 13:28:21 2012
+Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Oct 09 13:28:21 2012 ;
+; Revision Name          ; 64bitmux                              ;
+; Top-level Entity Name  ; 64bitmux                              ;
+; Family                 ; Cyclone III                           ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Programming output files
+    Info: Incremental compilation database files
+    Info: Automatically detected source files
+    Info: Report files
+    Info: Project source and settings files
+    Info: Megafunction and IP library files
+    Info: Version compatible database files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux_10_9_2012_backup.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report '64bitmux.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/12.0sp2/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 32-bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 239 megabytes
+    Info: Processing ended: Tue Oct 09 13:28:21 2012
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++---------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                    ;
++---------------------------------------------------------------------------------------------------+
+; File Name                                                                                         ;
++---------------------------------------------------------------------------------------------------+
+; 64bitmux.asm.rpt                                                                                  ;
+; 64bitmux.bdf                                                                                      ;
+; 64bitmux.db_export.rpt                                                                            ;
+; 64bitmux.dpf                                                                                      ;
+; 64bitmux.fit.rpt                                                                                  ;
+; 64bitmux.fit.smsg                                                                                 ;
+; 64bitmux.fit.summary                                                                              ;
+; 64bitmux.flow.rpt                                                                                 ;
+; 64bitmux.jdi                                                                                      ;
+; 64bitmux.map.rpt                                                                                  ;
+; 64bitmux.map.smsg                                                                                 ;
+; 64bitmux.map.summary                                                                              ;
+; 64bitmux.out.sdc                                                                                  ;
+; 64bitmux.pin                                                                                      ;
+; 64bitmux.qpf                                                                                      ;
+; 64bitmux.qsf                                                                                      ;
+; 64bitmux.restore.rpt                                                                              ;
+; 64bitmux.sof                                                                                      ;
+; 64bitmux.srf                                                                                      ;
+; 64bitmux.sta.rpt                                                                                  ;
+; 64bitmux.sta.smsg                                                                                 ;
+; 64bitmux.sta.summary                                                                              ;
+; 64bitmux_9_26_2012.bdf                                                                            ;
+; 64bitmux_assignment_defaults.qdf                                                                  ;
+; 74374b.bdf                                                                                        ;
+; altpll.tdf                                                                                        ;
+; altpll1.cmp                                                                                       ;
+; altpll1.vhd                                                                                       ;
+; C:/altera/12.0sp2/quartus/libraries/megafunctions/lpm_add_sub.inc                                 ;
+; C:/altera/12.0sp2/quartus/libraries/megafunctions/lpm_counter.inc                                 ;
+; C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/prmtvs_b.vhd                                        ;
+; C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/prmtvs_p.vhd                                        ;
+; C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/timing_b.vhd                                        ;
+; C:/altera/12.0sp2/quartus/libraries/vhdl/ieee/timing_p.vhd                                        ;
+; D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.dpf ;
+; db/64bitmux.cbx.xml                                                                               ;
+; db/FLS_DATA_FORMATTER_lvds_rx.v                                                                   ;
+; export_db/64bitmux.archive.qmsg                                                                   ;
+; export_db/64bitmux.asm.qmsg                                                                       ;
+; export_db/64bitmux.cmp.atm                                                                        ;
+; export_db/64bitmux.cmp.bpm                                                                        ;
+; export_db/64bitmux.cmp.eco2                                                                       ;
+; export_db/64bitmux.cmp.hdbx                                                                       ;
+; export_db/64bitmux.cmp.kpt                                                                        ;
+; export_db/64bitmux.cmp.logdb                                                                      ;
+; export_db/64bitmux.cmp.rcf                                                                        ;
+; export_db/64bitmux.cmp.sci                                                                        ;
+; export_db/64bitmux.cmp.scidsc                                                                     ;
+; export_db/64bitmux.cmp.xml                                                                        ;
+; export_db/64bitmux.cmp_merge.kpt                                                                  ;
+; export_db/64bitmux.db_export.qmsg                                                                 ;
+; export_db/64bitmux.db_info                                                                        ;
+; export_db/64bitmux.drc.qmsg                                                                       ;
+; export_db/64bitmux.export_db_files                                                                ;
+; export_db/64bitmux.export_db_post_map_files                                                       ;
+; export_db/64bitmux.export_db_report_files                                                         ;
+; export_db/64bitmux.fit.qmsg                                                                       ;
+; export_db/64bitmux.hier_info                                                                      ;
+; export_db/64bitmux.map.atm                                                                        ;
+; export_db/64bitmux.map.bpm                                                                        ;
+; export_db/64bitmux.map.hdbx                                                                       ;
+; export_db/64bitmux.map.kpt                                                                        ;
+; export_db/64bitmux.map.logdb                                                                      ;
+; export_db/64bitmux.map.qmsg                                                                       ;
+; export_db/64bitmux.map.sci                                                                        ;
+; export_db/64bitmux.map.scidsc                                                                     ;
+; export_db/64bitmux.map_bb.atm                                                                     ;
+; export_db/64bitmux.map_bb.hdbx                                                                    ;
+; export_db/64bitmux.map_bb.logdb                                                                   ;
+; export_db/64bitmux.map_bb.sci                                                                     ;
+; export_db/64bitmux.map_bb.scidsc                                                                  ;
+; export_db/64bitmux.pow.qmsg                                                                       ;
+; export_db/64bitmux.pre_map.hdbx                                                                   ;
+; export_db/64bitmux.restore.qmsg                                                                   ;
+; export_db/64bitmux.root_partition.cmp.atm                                                         ;
+; export_db/64bitmux.root_partition.cmp.dfp                                                         ;
+; export_db/64bitmux.root_partition.cmp.hdbx                                                        ;
+; export_db/64bitmux.root_partition.cmp.kpt                                                         ;
+; export_db/64bitmux.root_partition.cmp.logdb                                                       ;
+; export_db/64bitmux.root_partition.cmp.rcf                                                         ;
+; export_db/64bitmux.root_partition.map.atm                                                         ;
+; export_db/64bitmux.root_partition.map.dpi                                                         ;
+; export_db/64bitmux.root_partition.map.hbdb.atm                                                    ;
+; export_db/64bitmux.root_partition.map.hbdb.hb_info                                                ;
+; export_db/64bitmux.root_partition.map.hbdb.hdbx                                                   ;
+; export_db/64bitmux.root_partition.map.hbdb.sig                                                    ;
+; export_db/64bitmux.root_partition.map.hdbx                                                        ;
+; export_db/64bitmux.root_partition.map.kpt                                                         ;
+; export_db/64bitmux.sta.qmsg                                                                       ;
+; export_db/64bitmux.syn_hier_info                                                                  ;
+; FLS_DATA_FORMATTER.vhd                                                                            ;
+; incremental_db/compiled_partitions/64bitmux.db_info                                               ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.cdb                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.dfp                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.hdb                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.kpt                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.logdb                              ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.cmp.rcfdb                              ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.cdb                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.dpi                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.cdb                           ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.hb_info                       ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.hdb                           ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.hbdb.sig                           ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.hdb                                ;
+; incremental_db/compiled_partitions/64bitmux.root_partition.map.kpt                                ;
+; lpm_add_sub0.tdf                                                                                  ;
+; lpm_counter0.tdf                                                                                  ;
+; lpm_counter1.tdf                                                                                  ;
+; lpm_counter2.tdf                                                                                  ;
+; lpm_counter3.tdf                                                                                  ;
+; lpm_counter4.tdf                                                                                  ;
+; megafunctions/aglobal111.inc                                                                      ;
+; megafunctions/altddio_in.inc                                                                      ;
+; megafunctions/altlvds_rx.tdf                                                                      ;
+; megafunctions/cbx.lst                                                                             ;
+; megafunctions/cycloneii_pll.inc                                                                   ;
+; megafunctions/stratix_lvds_receiver.inc                                                           ;
+; megafunctions/stratix_pll.inc                                                                     ;
+; megafunctions/stratixgx_lvds_receiver.inc                                                         ;
+; megafunctions/stratixgx_pll.inc                                                                   ;
+; megafunctions/stratixii_clkctrl.inc                                                               ;
+; megafunctions/stratixii_lvds_receiver.inc                                                         ;
+; megafunctions/stratixii_pll.inc                                                                   ;
++---------------------------------------------------------------------------------------------------+
+
+

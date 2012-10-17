@@ -1,0 +1,12 @@
+PowerPlay Power Analyzer Status : Successful - Tue Oct 09 10:53:36 2012
+Quartus II 32-bit Version : 12.0 Build 263 08/02/2012 SP 2 SJ Web Edition
+Revision Name : 64bitmux
+Top-level Entity Name : 64bitmux
+Family : Cyclone III
+Device : EP3C40F324C8
+Power Models : Final
+Total Thermal Power Dissipation : 251.84 mW
+Core Dynamic Thermal Power Dissipation : 0.00 mW
+Core Static Thermal Power Dissipation : 101.44 mW
+I/O Thermal Power Dissipation : 150.40 mW
+Power Estimation Confidence : Low: user provided insufficient toggle rate data

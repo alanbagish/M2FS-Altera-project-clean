@@ -1,0 +1,455 @@
+set_location_assignment PIN_H16 -to DATA_READY
+set_location_assignment PIN_C9 -to CAM_PCLK
+set_location_assignment PIN_E8 -to CAM_HS
+set_location_assignment PIN_D7 -to CAM_VS
+set_location_assignment PIN_E10 -to CAM_FLD_OUT
+set_location_assignment PIN_C2 -to PDWN
+set_location_assignment PIN_H1 -to DTP
+set_location_assignment PIN_A3 -to IO_5
+set_location_assignment PIN_B7 -to IO_6
+set_location_assignment PIN_P7 -to IO_7
+set_location_assignment PIN_A6 -to IO_8
+set_location_assignment PIN_B11 -to IO_9
+set_location_assignment PIN_B13 -to IO_10
+set_location_assignment PIN_P2 -to IO_11
+set_location_assignment PIN_D5 -to IO_12
+set_location_assignment PIN_U4 -to IO_13
+set_location_assignment PIN_L4 -to IO_14
+set_location_assignment PIN_D9 -to IO_15
+set_location_assignment PIN_T4 -to IO_16
+set_location_assignment PIN_U7 -to FRAME_CLK_OUTB
+set_location_assignment PIN_V7 -to FRAME_CLK_OUTA
+set_location_assignment PIN_D16 -to EOSA
+set_location_assignment PIN_C16 -to EOSB
+set_location_assignment PIN_B2 -to START_A
+set_location_assignment PIN_G2 -to START_B
+set_location_assignment PIN_D2 -to PLL_LOCK_A
+set_location_assignment PIN_N15 -to PLL_LOCK_B
+set_location_assignment PIN_C17 -to SYS_CLK2
+set_location_assignment PIN_P17 -to SYS_CLK1
+set_location_assignment PIN_C14 -to Q[8]
+set_location_assignment PIN_E13 -to Q[7]
+set_location_assignment PIN_E12 -to Q[6]
+set_location_assignment PIN_A17 -to Q[5]
+set_location_assignment PIN_E14 -to Q[4]
+set_location_assignment PIN_D12 -to Q[3]
+set_location_assignment PIN_A18 -to Q[2]
+set_location_assignment PIN_D14 -to Q[1]
+set_location_assignment PIN_V9 -to IO2
+set_location_assignment PIN_N2 -to CAM_CLKA
+set_location_assignment PIN_A9 -to CAM_FLD
+set_location_assignment PIN_B9 -to IO3
+set_location_assignment PIN_K1 -to IO4
+set_location_assignment PIN_E7 -to IO5
+set_location_assignment PIN_B6 -to IO6
+set_location_assignment PIN_U3 -to IO7
+set_location_assignment PIN_B8 -to IO8
+set_location_assignment PIN_B12 -to IO9
+set_location_assignment PIN_B14 -to IO10
+set_location_assignment PIN_R2 -to IO11
+set_location_assignment PIN_E6 -to IO12
+set_location_assignment PIN_V4 -to IO13
+set_location_assignment PIN_M1 -to IO14
+set_location_assignment PIN_E9 -to IO15
+set_location_assignment PIN_P6 -to IO16
+set_location_assignment PIN_U11 -to FRAME_CLK_OUT_B
+set_location_assignment PIN_U13 -to FRAME_CLK_OUT_A
+set_location_assignment PIN_P10 -to DATA_CLK_OUT_A
+set_location_assignment PIN_U14 -to DATA_CLK_OUT_B
+set_location_assignment PIN_F18 -to EOS_A
+set_location_assignment PIN_F17 -to EOS_B
+set_location_assignment PIN_N1 -to IO1
+set_location_assignment PIN_D17 -to LVDS_CHANNEL_8
+set_location_assignment PIN_G17 -to LVDS_CHANNEL_7
+set_location_assignment PIN_H13 -to LVDS_CHANNEL_6
+set_location_assignment PIN_K17 -to LVDS_CHANNEL_5
+set_location_assignment PIN_L17 -to LVDS_CHANNEL_4
+set_location_assignment PIN_L16 -to LVDS_CHANNEL_3
+set_location_assignment PIN_L13 -to LVDS_CHANNEL_1
+set_location_assignment PIN_L14 -to LVDS_CHANNEL_2
+set_location_assignment PIN_P18 -to "SYS_CLK1(n)"
+set_location_assignment PIN_C18 -to "SYS_CLK2(n)"
+set_location_assignment PIN_D18 -to "LVDS_CHANNEL_8(n)"
+set_location_assignment PIN_G18 -to "LVDS_CHANNEL_7(n)"
+set_location_assignment PIN_H14 -to "LVDS_CHANNEL_6(n)"
+set_location_assignment PIN_K18 -to "LVDS_CHANNEL_5(n)"
+set_location_assignment PIN_M18 -to "LVDS_CHANNEL_4(n)"
+set_location_assignment PIN_M17 -to "LVDS_CHANNEL_3(n)"
+set_location_assignment PIN_L15 -to "LVDS_CHANNEL_2(n)"
+set_location_assignment PIN_M14 -to "LVDS_CHANNEL_1(n)"
+set_location_assignment PIN_P11 -to "DATA_CLK_OUT_A(n)"
+set_location_assignment PIN_V14 -to "DATA_CLK_OUT_B(n)"
+set_location_assignment PIN_V13 -to "FRAME_CLK_OUT_A(n)"
+set_location_assignment PIN_V11 -to "FRAME_CLK_OUT_B(n)"
+set_location_assignment PIN_G1 -to "START_B(n)"
+set_location_assignment PIN_B1 -to "START_A(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_1
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_2
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_3
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_4
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_5
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_6
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_7
+set_instance_assignment -name IO_STANDARD LVDS -to LVDS_CHANNEL_8
+set_instance_assignment -name IO_STANDARD LVDS -to SYS_CLK1
+set_instance_assignment -name IO_STANDARD LVDS -to SYS_CLK2
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CAM_FLD
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CAM_HS
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CAM_PCLK
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CAM_VS
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO3
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO5
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO6
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO8
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO12
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO15
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_1(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_2(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_3(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_4(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_5(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_6(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_7(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "LVDS_CHANNEL_8(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "SYS_CLK2(n)"
+set_instance_assignment -name IO_STANDARD LVDS -to "SYS_CLK1(n)"
+set_instance_assignment -name IO_STANDARD "1.8 V" -to DATA_CLK_OUTA
+set_instance_assignment -name IO_STANDARD LVDS -to DATA_CLK_OUT_A
+set_instance_assignment -name IO_STANDARD LVDS -to DATA_CLK_OUT_B
+set_instance_assignment -name IO_STANDARD LVDS -to FRAME_CLK_OUT_A
+set_instance_assignment -name IO_STANDARD LVDS -to FRAME_CLK_OUT_B
+set_instance_assignment -name IO_STANDARD "1.8 V" -to CAM_FLD_OUT
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO_5
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO_6
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO_8
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO_12
+set_instance_assignment -name IO_STANDARD "1.8 V" -to IO_15
+set_instance_assignment -name IO_STANDARD LVDS -to START_B
+set_instance_assignment -name IO_STANDARD LVDS -to START_A
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_CLKA
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_FLD
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_FLD_OUT
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_HS
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_PCLK
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to CAM_VS
+set_instance_assignment -name SLEW_RATE 2 -to CAM_FLD_OUT
+set_instance_assignment -name SLEW_RATE 2 -to CAM_HS
+set_instance_assignment -name SLEW_RATE 2 -to CAM_PCLK
+set_instance_assignment -name SLEW_RATE 2 -to CAM_VS
+set_instance_assignment -name SLEW_RATE 2 -to DATA_READY
+set_instance_assignment -name SLEW_RATE 2 -to DTP
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to DATA_READY
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to DTP
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to PDWN
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[8]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[7]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[6]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[5]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[4]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to Q[1]
+set_instance_assignment -name SLEW_RATE 2 -to Q[8]
+set_instance_assignment -name SLEW_RATE 2 -to Q[7]
+set_instance_assignment -name SLEW_RATE 2 -to Q[6]
+set_instance_assignment -name SLEW_RATE 2 -to Q[5]
+set_instance_assignment -name SLEW_RATE 2 -to Q[4]
+set_instance_assignment -name SLEW_RATE 2 -to Q[3]
+set_instance_assignment -name SLEW_RATE 2 -to Q[2]
+set_instance_assignment -name SLEW_RATE 2 -to Q[1]
+set_instance_assignment -name SLEW_RATE 2 -to PDWN
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to IO5
+set_instance_assignment -name CURRENT_STRENGTH_NEW 8MA -to IO6
+set_location_assignment PIN_A8 -to DATA_CLK_OUTA
+set_location_assignment PIN_R11 -to DATA_CLK_OUTB
+set_location_assignment PIN_D1 -to ~ALTERA_ASDO_DATA1~
+set_location_assignment PIN_E2 -to ~ALTERA_FLASH_nCE_nCSO~
+set_location_assignment PIN_H4 -to ~ALTERA_DCLK~
+set_location_assignment PIN_H3 -to ~ALTERA_DATA0~
+set_location_assignment PIN_E18 -to ~ALTERA_nCEO~
+set_location_assignment IOIBUF_X36_Y0_N15 -to ST_
+set_location_assignment IOIBUF_X0_Y21_N15 -to rx_inclock
+set_location_assignment IOOBUF_X32_Y43_N30 -to inst37
+set_location_assignment IOOBUF_X32_Y43_N30 -to inst37~OUTN
+set_location_assignment IOOBUF_X9_Y43_N2 -to inst34
+set_location_assignment IOOBUF_X9_Y43_N2 -to inst34~OUTN
+set_location_assignment IOOBUF_X11_Y43_N16 -to inst35
+set_location_assignment IOOBUF_X11_Y43_N16 -to inst35~OUTN
+set_location_assignment IOOBUF_X32_Y43_N23 -to inst38
+set_location_assignment IOOBUF_X32_Y43_N23 -to inst38~OUTN
+set_location_assignment IOIBUF_X34_Y43_N15 -to inst36
+set_location_assignment IOOBUF_X0_Y40_N9 -to inst45
+set_location_assignment IOOBUF_X0_Y40_N9 -to inst45~OUTN
+set_location_assignment IOIBUF_X34_Y43_N22 -to inst57
+set_location_assignment IOOBUF_X0_Y28_N9 -to inst54
+set_location_assignment IOOBUF_X0_Y28_N9 -to inst54~OUTN
+set_location_assignment IOIBUF_X0_Y20_N8 -to inst58
+set_location_assignment IOIBUF_X7_Y43_N15 -to inst59
+set_location_assignment IOIBUF_X22_Y43_N1 -to inst60
+set_location_assignment IOIBUF_X20_Y0_N15 -to inst61
+set_location_assignment IOIBUF_X25_Y43_N8 -to inst62
+set_location_assignment IOIBUF_X38_Y43_N1 -to inst63
+set_location_assignment IOIBUF_X45_Y43_N15 -to inst64
+set_location_assignment IOIBUF_X0_Y10_N22 -to inst65
+set_location_assignment IOIBUF_X5_Y43_N15 -to inst66
+set_location_assignment IOIBUF_X22_Y0_N15 -to inst67
+set_location_assignment IOIBUF_X0_Y15_N1 -to inst68
+set_location_assignment IOIBUF_X29_Y43_N22 -to inst69
+set_location_assignment IOIBUF_X5_Y0_N15 -to inst70
+set_location_assignment IOOBUF_X34_Y0_N23 -to inst72
+set_location_assignment IOOBUF_X34_Y0_N23 -to inst72~OUTN
+set_location_assignment IOIBUF_X38_Y0_N29 -to inst71
+set_location_assignment IOOBUF_X34_Y0_N16 -to inst50
+set_location_assignment IOOBUF_X34_Y0_N16 -to inst50~OUTN
+set_location_assignment IOIBUF_X43_Y0_N29 -to inst48
+set_location_assignment IOIBUF_X43_Y0_N15 -to inst47
+set_location_assignment IOIBUF_X43_Y0_N1 -to inst73
+set_location_assignment IOOBUF_X63_Y43_N30 -to inst40
+set_location_assignment IOOBUF_X63_Y43_N30 -to inst40~OUTN
+set_location_assignment IOOBUF_X63_Y43_N23 -to inst41
+set_location_assignment IOOBUF_X63_Y43_N23 -to inst41~OUTN
+set_location_assignment IOOBUF_X0_Y41_N2 -to inst44
+set_location_assignment IOOBUF_X0_Y41_N2 -to inst44~OUTN
+set_location_assignment IOOBUF_X0_Y31_N23 -to inst42
+set_location_assignment IOOBUF_X0_Y31_N23 -to inst42~OUTN
+set_location_assignment IOOBUF_X0_Y37_N2 -to inst43
+set_location_assignment IOOBUF_X0_Y37_N2 -to inst43~OUTN
+set_location_assignment IOOBUF_X67_Y2_N2 -to inst74
+set_location_assignment IOOBUF_X67_Y2_N2 -to inst74~OUTN
+set_location_assignment IOOBUF_X67_Y39_N16 -to inst53
+set_location_assignment IOOBUF_X67_Y39_N16 -to inst53~OUTN
+set_location_assignment IOOBUF_X67_Y12_N16 -to inst33
+set_location_assignment IOOBUF_X67_Y12_N16 -to inst33~OUTN
+set_location_assignment IOIBUF_X0_Y21_N22 -to CL_
+set_location_assignment IOIBUF_X67_Y34_N1 -to rx_in[7]
+set_location_assignment IOIBUF_X67_Y25_N15 -to rx_in[6]
+set_location_assignment IOIBUF_X67_Y37_N15 -to rx_in[5]
+set_location_assignment IOIBUF_X67_Y20_N8 -to rx_in[4]
+set_location_assignment IOIBUF_X67_Y18_N15 -to rx_in[3]
+set_location_assignment IOIBUF_X67_Y17_N15 -to rx_in[2]
+set_location_assignment IOIBUF_X67_Y14_N1 -to rx_in[0]
+set_location_assignment IOIBUF_X67_Y15_N1 -to rx_in[1]
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~PHASEDONE"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~SCANDATAOUT"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~SCANDONE"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~ACTIVECLOCK"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~LOCKED"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~VCOOVERRANGE"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~VCOUNDERRANGE"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_fbout"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~OBSERVABLEPHASEUPDOWNDFF"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~OBSERVABLEPHASECOUNTERSELECTDFF"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~OBSERVABLESCANDFF"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~OBSERVABLE_VCO_OUT"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|fast_clock"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_clk[1]"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_clk[2]"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_clk[3]"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_clk[4]"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~CLKBAD0"
+set_location_assignment PLL_1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|lvds_rx_pll~CLKBAD1"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~PHASEDONE"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~SCANDATAOUT"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~SCANDONE"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~ACTIVECLOCK"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~LOCKED"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~VCOOVERRANGE"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~VCOUNDERRANGE"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~FBOUT"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~OBSERVABLEPHASEUPDOWNDFF"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~OBSERVABLEPHASECOUNTERSELECTDFF"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~OBSERVABLESCANDFF"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~OBSERVABLE_VCO_OUT"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|_clk0"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLK1"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLK2"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLK3"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLK4"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLKBAD0"
+set_location_assignment PLL_3 -to "altpll1:inst27|altpll:altpll_component|pll~CLKBAD1"
+set_location_assignment IOOBUF_X59_Y43_N9 -to Q[8]~output
+set_location_assignment IOOBUF_X56_Y43_N23 -to Q[7]~output
+set_location_assignment IOOBUF_X54_Y43_N9 -to Q[6]~output
+set_location_assignment IOOBUF_X61_Y43_N16 -to Q[5]~output
+set_location_assignment IOOBUF_X56_Y43_N16 -to Q[4]~output
+set_location_assignment IOOBUF_X54_Y43_N16 -to Q[3]~output
+set_location_assignment IOOBUF_X61_Y43_N9 -to Q[2]~output
+set_location_assignment IOOBUF_X59_Y43_N16 -to Q[1]~output
+set_location_assignment FF_X67_Y14_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[0]"
+set_location_assignment FF_X67_Y15_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[1]"
+set_location_assignment FF_X67_Y17_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[2]"
+set_location_assignment FF_X67_Y18_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[3]"
+set_location_assignment FF_X67_Y20_N10 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[4]"
+set_location_assignment FF_X67_Y37_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[5]"
+set_location_assignment FF_X67_Y25_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[6]"
+set_location_assignment FF_X67_Y34_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_h_reg[7]"
+set_location_assignment FF_X67_Y14_N10 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[0]"
+set_location_assignment FF_X67_Y15_N10 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[1]"
+set_location_assignment FF_X67_Y17_N24 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[2]"
+set_location_assignment FF_X67_Y18_N24 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[3]"
+set_location_assignment FF_X67_Y20_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[4]"
+set_location_assignment FF_X67_Y37_N24 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[5]"
+set_location_assignment FF_X67_Y25_N24 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[6]"
+set_location_assignment FF_X67_Y34_N10 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|ddio_l_reg[7]"
+set_location_assignment FF_X66_Y28_N25 -to 23
+set_location_assignment FF_X66_Y28_N3 -to 22
+set_location_assignment FF_X66_Y28_N13 -to 21
+set_location_assignment LCCOMB_X66_Y28_N24 -to 23~0
+set_location_assignment FF_X65_Y26_N21 -to "74374b:inst20|20"
+set_location_assignment FF_X65_Y26_N7 -to "74374b:inst21|20"
+set_location_assignment FF_X62_Y26_N25 -to 6
+set_location_assignment FF_X62_Y26_N11 -to 5
+set_location_assignment LCCOMB_X65_Y26_N6 -to "74374b:inst21|49~8"
+set_location_assignment FF_X65_Y26_N29 -to "74374b:inst19|20"
+set_location_assignment FF_X62_Y26_N21 -to 3
+set_location_assignment FF_X65_Y26_N25 -to "74374b:inst52|20"
+set_location_assignment FF_X62_Y26_N7 -to 4
+set_location_assignment LCCOMB_X65_Y26_N28 -to "74374b:inst21|49~9"
+set_location_assignment FF_X65_Y26_N13 -to "74374b:inst23|20"
+set_location_assignment FF_X65_Y26_N11 -to "74374b:inst22|20"
+set_location_assignment FF_X62_Y26_N17 -to 7
+set_location_assignment FF_X62_Y26_N3 -to 8
+set_location_assignment LCCOMB_X65_Y26_N12 -to "74374b:inst21|49~10"
+set_location_assignment FF_X65_Y26_N23 -to "74374b:inst25|20"
+set_location_assignment FF_X65_Y26_N3 -to "74374b:inst24|20"
+set_location_assignment FF_X62_Y26_N13 -to 9
+set_location_assignment FF_X62_Y26_N23 -to 10
+set_location_assignment LCCOMB_X65_Y26_N22 -to "74374b:inst21|49~11"
+set_location_assignment LCCOMB_X65_Y26_N0 -to "74374b:inst21|49~12"
+set_location_assignment LCCOMB_X62_Y26_N24 -to "74374b:inst21|49~13"
+set_location_assignment LCCOMB_X62_Y26_N12 -to "74374b:inst21|49~14"
+set_location_assignment LCCOMB_X62_Y26_N0 -to "74374b:inst21|49~15"
+set_location_assignment LCCOMB_X66_Y28_N2 -to 22~0
+set_location_assignment FF_X65_Y26_N19 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[47]"
+set_location_assignment FF_X65_Y26_N15 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[39]"
+set_location_assignment FF_X65_Y26_N31 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[55]"
+set_location_assignment FF_X65_Y26_N27 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[63]"
+set_location_assignment FF_X65_Y26_N9 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[23]"
+set_location_assignment FF_X65_Y24_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[31]"
+set_location_assignment FF_X65_Y26_N5 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[7]"
+set_location_assignment FF_X65_Y26_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|rx_reg[15]"
+set_location_assignment FF_X65_Y28_N9 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg11a[3]"
+set_location_assignment FF_X66_Y20_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg9a[3]"
+set_location_assignment FF_X66_Y25_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg13a[3]"
+set_location_assignment FF_X66_Y34_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg15a[3]"
+set_location_assignment FF_X65_Y20_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg5a[3]"
+set_location_assignment FF_X66_Y18_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg7a[3]"
+set_location_assignment FF_X66_Y15_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg1a[3]"
+set_location_assignment FF_X64_Y17_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg3a[3]"
+set_location_assignment FF_X65_Y28_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg11a[2]"
+set_location_assignment FF_X66_Y20_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg9a[2]"
+set_location_assignment FF_X66_Y25_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg13a[2]"
+set_location_assignment FF_X66_Y34_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg15a[2]"
+set_location_assignment FF_X65_Y20_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg5a[2]"
+set_location_assignment FF_X66_Y18_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg7a[2]"
+set_location_assignment FF_X66_Y15_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg1a[2]"
+set_location_assignment FF_X64_Y17_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg3a[2]"
+set_location_assignment FF_X65_Y28_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg11a[1]"
+set_location_assignment FF_X66_Y20_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg9a[1]"
+set_location_assignment FF_X66_Y25_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg13a[1]"
+set_location_assignment FF_X66_Y34_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg15a[1]"
+set_location_assignment FF_X65_Y20_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg5a[1]"
+set_location_assignment FF_X66_Y18_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg7a[1]"
+set_location_assignment FF_X66_Y15_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg1a[1]"
+set_location_assignment FF_X64_Y17_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg3a[1]"
+set_location_assignment FF_X65_Y28_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg11a[0]"
+set_location_assignment FF_X66_Y20_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg9a[0]"
+set_location_assignment FF_X66_Y25_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg13a[0]"
+set_location_assignment FF_X66_Y34_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg15a[0]"
+set_location_assignment FF_X65_Y20_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg5a[0]"
+set_location_assignment FF_X66_Y18_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg7a[0]"
+set_location_assignment FF_X66_Y15_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg1a[0]"
+set_location_assignment FF_X64_Y17_N7 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|l_shiftreg3a[0]"
+set_location_assignment FF_X65_Y28_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[5]"
+set_location_assignment FF_X66_Y20_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[4]"
+set_location_assignment FF_X66_Y25_N25 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[6]"
+set_location_assignment FF_X66_Y34_N1 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[7]"
+set_location_assignment FF_X65_Y20_N25 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[2]"
+set_location_assignment FF_X66_Y18_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[3]"
+set_location_assignment FF_X66_Y15_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[0]"
+set_location_assignment FF_X64_Y17_N17 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_dffpipe:h_dffpipe|dffe17a[1]"
+set_location_assignment FF_X65_Y28_N27 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[5]"
+set_location_assignment FF_X66_Y20_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[4]"
+set_location_assignment FF_X66_Y25_N3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[6]"
+set_location_assignment FF_X66_Y34_N27 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[7]"
+set_location_assignment FF_X65_Y20_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[2]"
+set_location_assignment FF_X66_Y18_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[3]"
+set_location_assignment FF_X66_Y15_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[0]"
+set_location_assignment FF_X64_Y17_N11 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_reg[1]"
+set_location_assignment FF_X65_Y28_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[5]"
+set_location_assignment FF_X66_Y20_N13 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[4]"
+set_location_assignment FF_X66_Y25_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[6]"
+set_location_assignment FF_X66_Y34_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[7]"
+set_location_assignment FF_X65_Y20_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[2]"
+set_location_assignment FF_X66_Y18_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[3]"
+set_location_assignment FF_X66_Y15_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[0]"
+set_location_assignment FF_X64_Y17_N29 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|FLS_DATA_FORMATTER_lvds_ddio_in:ddio_in|dataout_l_latch[1]"
+set_location_assignment LCCOMB_X66_Y28_N12 -to 21~0
+set_location_assignment LCCOMB_X62_Y26_N20 -to 3~0
+set_location_assignment LCCOMB_X62_Y26_N6 -to 4~0
+set_location_assignment IOOBUF_X67_Y28_N23 -to DATA_READY~output
+set_location_assignment IOOBUF_X5_Y43_N2 -to IO_5~output
+set_location_assignment IOOBUF_X25_Y43_N23 -to IO_6~output
+set_location_assignment IOOBUF_X20_Y0_N23 -to IO_7~output
+set_location_assignment IOOBUF_X25_Y43_N30 -to IO_8~output
+set_location_assignment IOOBUF_X38_Y43_N30 -to IO_9~output
+set_location_assignment IOOBUF_X45_Y43_N30 -to IO_10~output
+set_location_assignment IOOBUF_X0_Y10_N9 -to IO_11~output
+set_location_assignment IOOBUF_X3_Y43_N2 -to IO_12~output
+set_location_assignment IOOBUF_X22_Y0_N23 -to IO_13~output
+set_location_assignment IOOBUF_X0_Y16_N2 -to IO_14~output
+set_location_assignment IOOBUF_X29_Y43_N2 -to IO_15~output
+set_location_assignment IOOBUF_X3_Y0_N16 -to IO_16~output
+set_location_assignment IOOBUF_X25_Y43_N2 -to DATA_CLK_OUTA~output
+set_location_assignment IOOBUF_X45_Y0_N2 -to DATA_CLK_OUTB~output
+set_location_assignment IOIBUF_X67_Y22_N8 -to EOS_A~input
+set_location_assignment IOIBUF_X67_Y22_N1 -to EOS_B~input
+set_location_assignment IOIBUF_X0_Y37_N8 -to ~ALTERA_ASDO_DATA1~~ibuf
+set_location_assignment IOIBUF_X0_Y36_N8 -to ~ALTERA_FLASH_nCE_nCSO~~ibuf
+set_location_assignment IOOBUF_X0_Y27_N16 -to ~ALTERA_DCLK~~obuf
+set_location_assignment IOIBUF_X0_Y27_N22 -to ~ALTERA_DATA0~~ibuf
+set_location_assignment IOOBUF_X67_Y27_N23 -to ~ALTERA_nCEO~~obuf
+set_location_assignment CLKCTRL_G4 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|wire_lvds_rx_pll_clk[1]~clkctrl"
+set_location_assignment CLKCTRL_G3 -to "FLS_DATA_FORMATTER:inst5|altlvds_rx:ALTLVDS_RX_component|FLS_DATA_FORMATTER_lvds_rx:auto_generated|fast_clock~clkctrl"
+set_location_assignment CLKCTRL_G1 -to rx_inclock~clkctrl
+set_location_assignment CLKCTRL_G0 -to CL_~clkctrl
+set_location_assignment CLKCTRL_G13 -to "altpll1:inst27|altpll:altpll_component|_clk0~clkctrl"
+set_location_assignment CLKCTRL_G19 -to ST_~clkctrl
+set_location_assignment PIN_A1 -to Vsync
+set_location_assignment PIN_A5 -to Hsync
+set_location_assignment PIN_V17 -to V17
+set_location_assignment PIN_T18 -to T18
+set_location_assignment PIN_K2 -to CMOS_OE
+set_location_assignment PIN_A3 -to Vs
+set_location_assignment PIN_A7 -to Hs
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C40F324C8
+set_global_assignment -name TOP_LEVEL_ENTITY 64bitmux
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:59:14  OCTOBER 09, 2012"
+set_global_assignment -name LAST_QUARTUS_VERSION "12.0 SP2"
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name AHDL_FILE lpm_counter4.tdf
+set_global_assignment -name AHDL_FILE lpm_counter3.tdf
+set_global_assignment -name AHDL_FILE lpm_counter2.tdf
+set_global_assignment -name AHDL_FILE lpm_counter1.tdf
+set_global_assignment -name AHDL_FILE lpm_counter0.tdf
+set_global_assignment -name AHDL_FILE lpm_add_sub0.tdf
+set_global_assignment -name VHDL_FILE altpll1.vhd
+set_global_assignment -name SOURCE_FILE altpll1.cmp
+set_global_assignment -name BDF_FILE 64bitmux_9_26_2012.bdf
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
+set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "ALL PATHS"
+set_global_assignment -name OPTIMIZE_MULTI_CORNER_TIMING ON
+set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
+set_global_assignment -name MISC_FILE "D:/alanb OCIW work Sept 26 2012/M2FS Sept 26 2012/FLS Altera Design/Altera 10_9_2012/64bitmux.dpf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name BDF_FILE 64bitmux.bdf
